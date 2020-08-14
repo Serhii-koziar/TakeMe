@@ -2473,7 +2473,16 @@ footer {
     margin-top: 20px; } }
 
 @media screen and (max-width: 992px) {
+	.logo_menu__wrap{
+		position: 	relative;
+		z-index: 	500;
+	}
+	.section__title h3{
+		position: relative;
+		z-index: 200;
+	}
   nav {
+
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
